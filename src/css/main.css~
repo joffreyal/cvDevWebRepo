@@ -1,0 +1,193 @@
+* {
+    /*border: 1px solid red; */
+}
+
+html {
+    background-color: #6B979C;
+    font-size: 100%;
+}
+
+body {
+	background-color: #EFFBFF;
+	font-family: Garamond, sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+h1 {
+    font-size: 300%;
+    color: #2F574D;
+    text-align: center;
+}
+
+h2 {
+	font-size: 200%;
+	color: #2F574D;
+	text-decoration: underline;
+}
+
+p, ul, li, a {
+    font-size: 20px;
+    color: #4C767A;
+    line-height: 15px;
+}
+
+ul, li {
+	font-size: 25px;
+	line-height: 30px;
+	list-style-type: square;
+}
+
+header {
+	position: relative;
+	border-bottom: 1px double #000;
+	padding: 10px;
+	height: 250px;
+}
+
+.entete {
+	position: absolute;
+	left: 15%;
+	top: 10%;
+}
+
+.coordonnes  {
+	position: absolute;
+	right: 5%;
+	top: 15%;
+	border-left: dashed 1px;
+	padding-left: 20px;
+	
+}
+
+.coordonnes p {
+	font-size: 16px;
+}
+
+.icone img {
+	height: 24px;
+	max-width: 100%;
+}
+
+.rond {
+	position: absolute;
+	right: 30%;
+}
+
+.icone img,
+.icone div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.central {
+    padding: 10px;
+    position: relative;
+    height: 800px;
+}
+
+.colonneGauche  {
+    position: absolute;
+	 left: 2%;
+	 right: 50%;
+	 border-right: 1px solid black;
+	 height: 97%;
+}
+
+.formations {
+	padding-top: 20px;
+}
+
+.expPro {
+	padding-top: 30px;
+}
+
+.colonneDroite {
+    position: absolute;
+	 right: 5%;
+	 left: 50%;
+	 margin-left: 20px;
+}
+
+.comp p {
+	text-align: center;
+}
+
+.real {
+	bottom: -110%;
+	position: relative;
+}
+
+.visible {
+	vertical-align: middle;
+	position: absolute;
+	right: 22%;
+	display: inline-block;
+	height: 15px;
+	width: 130px;
+	background-color: #2F574D;
+}
+
+.visible span {
+	vertical-align: middle;
+	position: absolute;
+	left: 0%;
+	display: inline-block;
+	height: 15px;
+	width: 1%;
+	background-color: #4C7BA0;
+	transition: width 1s;
+}
+
+.comp:hover .cacheHtml {
+	width: 20%; 
+}
+
+.comp:hover .cacheJavascript {
+	width: 10%; 
+}
+
+.comp:hover .cachePhp {
+	width: 10%; 
+}
+
+.comp:hover .cacheAjax {
+	width: 1%; 
+}
+
+.comp:hover .cacheNode {
+	width: 1%; 
+}
+
+.real p {
+	font-size: 40px;
+}
+
+footer {
+    position: relative;
+    padding: 20px;
+    background-color: #6B979C;
+    margin: auto;
+}
+
+.sousTexte {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a:link {
+    color: #2F574D;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+
+

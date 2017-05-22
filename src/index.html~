@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/main2.1.css" type="text/css" rel="stylesheet">
+    <title>CV Alcaraz Joffrey</title>
+</head>
+
+<body>
+
+	<header>
+	
+		 <div class="entete">
+	    	<h1>Alcaraz Joffrey</h1>
+	    	<h2>Développeur Web</h2>
+	    </div>
+	
+	    <div class="coordonnes">
+	
+	    	<div class="icone">
+	      	<img src="img/adresse.png" alt="icône adresse">
+	      	<div>
+	      		<p>25 chemin de Narbonne et Mondésir</p>
+	      		<p>26200 Montélimar</p>
+	      	</div>
+	    	</div>
+	      <div class="icone">
+	      	<p>
+	      		<img src="img/tel.png" alt="icône tel">06.24.61.32.35
+	      	</p>
+	
+	      	<p>
+	      		<img src="img/mail.png" alt="icône mail"> alcaraz.joffrey@gmail.com
+	      	</p>
+	      </div>
+	
+	    </div>
+	
+	</header>
+	
+	<div class="central">
+	
+	    <section class="colonneGauche">
+	    	<div class="formations">
+	        <h2>Formations</h2>
+	        		<p><span class="bold">2017</span> -Develo'Pont</p>
+	            	<div class="sousTexte">
+	            		<p>Développement Web et mobile</p>
+	            		<p><a href="http://www.simplon.co" target="_blank">Simplon</a> , Pont en Royans</p>
+	            	</div>
+	        		<p>
+	        			<span class="bold">2010</span> -Cap <span class="infobulle">ATIM<span>Assistant Technique en Instrument de Musique</span></span> Guitare
+	        		</p>
+	            	<div class="sousTexte">
+	            		<p>Réparation de guitare</p>
+	            		<p><a href="http://www.itemm.fr" target="_blank">ITEMM</a>, Le Mans</p>
+	            	</div>
+	       </div>
+	      <div class="expPro">
+	        <h2>Expériences professionnels</h2>
+	    			<p><span class="bold">2016</span> - Préparateur de commandes</p>
+	    				<div class="sousTexte">
+							<p>CLM Logistique, montélimar</p>
+	    				</div>
+	    			<p><span class="bold">2009 - 2014</span> Équipier polyvalent</p>
+	    				<div class="sousTexte">
+							<p>McDonald's Lyon Confluence</p>
+	    				</div>
+	    			<p><span class="bold">2007 - 2009</span> Apprenti vendeur/réparateur d'instruments</p>
+	    				<div class="sousTexte">
+							<p><a href="http://www.music-city-94.fr/" target="_blank">Music-City</a>, Maisons-Alfort</p>
+	    				</div>
+	    	</div>
+	    </section>
+	
+	    <section class="colonneDroite">
+	    	
+	    	<div class="comp">
+	        <h2>Compétences</h2>
+	        
+	        <div class="jauge">
+	            <ul>
+	                <li>HTML et CSS</li> <!--&#9899 Rond plein   &#9898 Rond vide     &nbsp Espace -->
+	
+	                <li>Javascript </li>
+	
+	                <li>PHP </li>
+	
+	                <li>AJAX/jQuery  </li>
+	
+	                <li>Node.Js </li>
+	            </ul>
+	            <div>
+	            <p><span class="visible"><span class="cacheHtml"></span></span></p>
+	            <p><span class="visible"><span class="cacheJavascript"></span></span></p>
+	            <p><span class="visible"><span class="cachePhp"></span></span></p>
+	            <p><span class="visible"> <span class="cacheAjax"></span> </span></p>
+	            <p><span class="visible"><span class="cacheNode"></span></span></p>
+	            </div>
+	            
+	        </div>    
+			</div>
+	
+	    	<div class="real">
+	        <h2>Réalisations</h2>
+	            <p><a href="http://www.google.com" target="_blank">www.FuturSite.com</a></p>
+	            <p><a class="infobulle" href="http://www.google.com" target="_blank">www.google.com<span><img src="img/google.jpg" alt="apercu du site"></span></a></p>
+	      </div>
+	
+	      <div class="loisirs">
+				<h2>Loisirs</h2>
+					<p class="bold">Musique</p>
+					<p class="sousTexte">Guitare et piano</p>
+					<p class="bold">Podcasts</p>
+						<div class="sousTexte">
+							<p>
+								<a href="http://www.forum.dequaliter.com" target="_blank">Studio 404</a>,
+								<a href="http://frenchspin.fr/" target="_blank">le rendez-vous tech</a>,
+							</p>
+							<p>
+								<a href="http://www.rivieraferraille.com/" target="_blank">riviera détente</a>
+							</p>
+						</div>
+					<p class="bold">Jeux Video</p>
+						<div class="sousTexte">
+							<p>CS:GO, rocket league</p>
+						</div>
+	      </div>
+	
+	    </section>
+	
+	
+	
+	</div>
+	
+	<footer>
+	    <p>Copyright Joffrey Alcaraz - Tous droits réservés</p>
+	    <p><a href="mailto:alcaraz.joffrey@gmail.com">contact</a></p>
+	    <p>
+    		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        		<img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="CSS Valide !" />
+    		</a>
+		</p>
+	</footer>
+
+</body>
+
+</html>

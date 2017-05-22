@@ -1,0 +1,142 @@
+* {
+    /*border: 1px solid red; */
+}
+
+html, body {
+    margin: auto;
+    padding: 0;
+    font-weight: normal;
+    max-width: 1000px;
+}
+
+html {
+    background-color: #6B979C;
+}
+
+body {
+    background-color: #EFFBFF;
+    font-family: Verdana, sans-serif;
+    font-size: 100%;
+}
+header {
+    margin: auto;
+    margin-bottom: 50px;
+    position: relative;
+    border-bottom: 1px double #000000;
+    padding-bottom: 50px;
+}
+
+.entete {
+	 position: absolute;
+    padding: 50px;
+    font-size: 1.5em;
+}
+
+.coordonnes {
+    margin-left: 400px;
+    text-align: left;
+    padding: 50px;
+    line-height: 5%;
+}
+
+.coordonnes img {
+	float: left;
+	width: 5%;
+	height: auto;	
+}
+
+/*
+header h1 {
+    position: absolute;
+    padding: 50px;
+    font-size: 1,5em;
+}
+*/
+.central {
+    max-width: 960px;
+    margin: auto;
+    position: relative;
+}
+
+.formation  {
+    position: absolute;
+    border-right: solid 1px #000000;
+    padding: 50px;
+}
+
+.experiences {
+	 position: absolute;
+    border-right: solid 1px #000000;
+    padding: 50px;
+}
+
+.competences, .realisations {
+    text-align: left;
+    margin-left: 400px;
+    padding: 50px;
+    border-left: solid 1px #000000;
+}
+
+.realisations{
+	
+}
+
+footer {
+    position: relative;
+    padding: 50px;
+    background-color: #6B979C;
+    margin: auto;
+}
+
+h1 {
+    font-size: 200%;
+    color: #2F574D;
+    text-align: center;
+    /* text-align: center; */
+}
+
+h2 {
+	font-size: 150%;
+	color: #2F574D;
+}
+
+p {
+    font-size: 100%;
+    color: #4C767A;
+    line-height: 2px;
+}
+
+.sousTexte {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+ul,li {
+    color: #4C767A;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a:link {
+    color: #2F574D;
+    text-decoration: underline;
+}
+a:visited {
+    color: gray;
+}
+
+/*
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+a:active, a:focus {
+    color: red;
+}
+
+header {
+
+}
+*/

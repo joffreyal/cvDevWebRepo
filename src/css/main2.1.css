@@ -1,0 +1,271 @@
+* {
+    /*border: 1px solid red; */
+}
+
+html {
+   /* background-color: #6B979C; */
+    background-color: #F5F8FA;
+    font-size: 100%;
+	background-image: url(../img/backpatern8.png); /*Dark geometric*/
+}
+
+body {
+	/* background-color: #6b979c; */
+	font-family: Garamond, sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	max-width: 1000px;
+	border-color: #2F574D; 
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 200%;
+	text-decoration: underline;
+}
+
+h1, h2 {
+	color: #146ea5;
+}
+
+p, ul, li, a {
+    font-size: 20px;
+    color: #14171A;
+    line-height: 100%;
+}
+
+ul, li {
+	font-size: 25px;
+	line-height: 30px;
+	list-style-type: square;
+}
+
+header, .formations, .expPro, .comp, .real, .loisirs {
+	background-color: rgba(239, 251, 255, 0.7);	
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+header {
+	position: relative;
+    padding: 40px 20px;
+    /* height: 250px; */
+    /* background-color: rgba(239, 251, 255, 0.7); */
+    /* border: 4px solid #2F574D; */
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-around;
+	align-items: flex-start;
+ }
+
+.entete {
+	left: 15%;
+	top: 10%;
+}
+
+.coordonnes  {
+	border-left: dashed 1px;
+	padding-left: 20px;
+	margin-left: 40px;
+	
+}
+
+.coordonnes p {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+.icone img {
+	height: 24px;
+	max-width: 100%;
+}
+
+.rond {
+	position: absolute;
+	right: 30%;
+}
+
+.icone img,
+.icone div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.central {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	max-width: 1000px;
+}
+
+.colonneGauche  {
+   
+}
+
+.formations, .expPro, .comp, .real, .loisirs {
+	/* background-color: rgba(239, 251, 255, 0.75); */
+    height: auto;
+    width: 400px;
+    padding: 30px;
+    margin: 10px;
+    /*border: 4px solid #2F574D;*/
+}
+
+
+.colonneDroite {
+ 
+}
+
+.comp {
+	/* background-color: #EFFBFF; */
+    height: auto;
+    width: 400px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.jauge {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.jauge p {
+	margin: 15px;
+	max-width: 130px;
+}
+
+.jauge div {
+	margin: 20px 0;
+}
+
+.visible {
+	vertical-align: middle;
+	right: 5%;
+	height: 15px;
+	width: 130px;
+	background-color: #d1e2ec;
+}
+
+.visible span {
+	position: absolute;
+	height: 15px;
+	width: 1px;
+	
+	background-color: #26A5F2;
+	transition: all 1s;
+}
+
+.formations:hover .sousTexte, .expPro:hover .sousTexte, .loisirs:hover .sousTexte {
+	max-height: 15em;
+	border-color: rgba(239, 251, 255, 0.75);
+	border-top: 0;
+} 
+
+.comp:hover .cacheHtml {
+	width: 26px; 
+}
+
+.comp:hover .cacheJavascript {
+	width: 13px; 
+}
+
+.comp:hover .cachePhp {
+	width: 13px; 
+}
+
+.comp:hover .cacheAjax {
+	width: 1px; 
+}
+
+.comp:hover .cacheNode {
+	width: 1px; 
+}
+
+.comp:hover .cacheAnglaisLu {
+	width: 100px; 
+}
+
+.comp:hover .cacheAnglaisParle {
+	width: 60px; 
+}
+
+.real p {
+	font-size: 40px;
+}
+
+footer {
+    position: absolute;
+    padding: 20px;
+    /* background-color: #6B979C; */
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: auto;
+}
+
+.sousTexte {
+	max-height: 0em;
+    font-style: italic;
+    margin-bottom: 30px;
+    transition: max-height 2s, border-top 2s;
+    overflow: hidden;
+    border-top: 1px dashed rgb(76, 118, 122);
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a:link {
+    color: #26A5F2;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+.infobulle {
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+.infobulle:hover span, .infobulle:focus span {
+	transform: scale(1) rotate(0);
+	opacity: 1;
+	box-shadow: 5px 5px 5px black;
+}
+
+.infobulle span {
+	position: absolute;
+	margin-top: 23px;
+	margin-left: -35px;
+	transform: scale(0) rotate(-12deg);
+	transition: all .25s;
+	opacity: 0;
+	background: rgba(0,0,0,.9);
+	color: #26A5F2;
+	border-radius: 3px;
+	padding: 15px;
+	box-shadow:1px 1px 1px white;
+}
+
+.real .infobulle span {
+	margin-top: 50px;
+	margin-left: -600px;
+
+}
+
+.infobulle span img {
+	max-height: 300px;
+	width: auto;
+}
